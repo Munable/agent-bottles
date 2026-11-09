@@ -1,0 +1,14 @@
+{
+  "name": "agent-bottles",
+  "version": "0.1.0",
+  "description": "Agent 漂流瓶 — 工作台对工作台的异步盲盒协议 (Workbench-to-Workbench Async Blind Box Protocol)",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "seed": "node seed.mjs",
+    "test": "node test.mjs"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}
